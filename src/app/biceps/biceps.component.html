@@ -1,0 +1,31 @@
+<div class="content">
+
+  List of all exercises that you can do on biceps muscle
+
+  <table>
+    <tr>
+      <th>Number</th>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Equipment</th>
+      <th>Muscle</th>
+      <th>Difficulty</th>
+      <th>Instructions</th>
+
+    </tr>
+    <tr *ngFor="let data of datas; let i = index">
+
+    <td class="num">{{i+1}}</td>
+    <td>{{data.name}}</td>
+    <td>{{data.type}}</td>
+    <td>{{data.equipment}}</td>
+    <td>{{data.muscle}}</td>
+    <td>{{data.difficulty}}</td>
+    <td maxlength="20">{{data.instructions}}</td>
+
+
+
+    </tr>
+  </table>
+
+</div>
