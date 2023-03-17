@@ -6,7 +6,7 @@ import { HttpClientModule, HttpClient, HttpHeaders } from '@angular/common/http'
 })
 export class ExerciseService {
 
-  constructor(private http : HttpClient) { }
+  constructor(private http : HttpClient) {  }
 
 sendData(){
   const header={
